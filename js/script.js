@@ -1,3 +1,4 @@
+
 // Auto-slide banner text
 let messages = [
     "Welcome to our Travel Agent!",
@@ -14,7 +15,7 @@ let messages = [
   }
   
   setInterval(changeText, 3000);
-  
+
   // Form validation
   document.getElementById("contact-form").addEventListener("submit", function (e) {
     const name = document.getElementById("name").value.trim();
